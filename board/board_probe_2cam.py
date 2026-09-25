@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: Copyright © 2026 Synaptics Incorporated.
 """One-shot seam check on the board — cameras -> NPU vmfb -> action, NO motors, NO motion.
 
 Opens the two UVC cameras directly with cv2 (BGR->RGB, CAM_ROTATION to match training), runs the

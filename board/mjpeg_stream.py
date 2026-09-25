@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: Copyright © 2026 Synaptics Incorporated.
 """Tiny dependency-light MJPEG server — publish the exact frames the model sees.
 
 The control loop calls `update(name, frame_bgr)` each tick; browsers watch the live streams.

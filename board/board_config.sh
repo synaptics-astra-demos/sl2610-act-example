@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: Copyright © 2026 Synaptics Incorporated.
 # ============================================================================
 # board_config.sh — EDIT to match YOUR board + robot rig.
 #

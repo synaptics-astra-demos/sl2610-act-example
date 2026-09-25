@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: Copyright © 2026 Synaptics Incorporated.
 """Userspace CH343 (WCH USB-serial) -> PTY bridge.
 
 The board image ships no USB-serial kernel driver (no cdc_acm / ch341), so the

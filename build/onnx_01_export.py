@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: Copyright © 2026 Synaptics Incorporated.
 """Export the trained 2-camera QVGA ACT policy to a single self-contained fp32 ONNX.
 
 This is the one model-specific step of the pipeline. A lerobot policy does not expose a plain

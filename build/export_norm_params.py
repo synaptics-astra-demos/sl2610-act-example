@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: Copyright © 2026 Synaptics Incorporated.
 """Extract the ACT policy's normalization constants into a portable npz for the board.
 
 The exported ONNX/vmfb wraps `policy.model` directly, so it contains no input normalization or

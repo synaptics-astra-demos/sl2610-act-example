@@ -1,3 +1,6 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+<!-- SPDX-FileCopyrightText: Copyright © 2026 Synaptics Incorporated. -->
+
 # Scripts for the ACT-on-Astra guide
 
 These are the scripts referenced by the blog: "Autonomous Robotic Arm Operation with Synaptics Astra™ SL2610".
@@ -83,3 +86,14 @@ source $HOME/.local/bin/env   # put uv on PATH in this shell
 - `export_norm_params.py` reads the lerobot normalizer step directly and assumes the two cameras are
   named `wrist` and `top` (as in the blog's `lerobot-record` command). Adjust the key names at the top
   of that script if yours differ.
+
+## License
+
+Apache License 2.0 — see [LICENSE](LICENSE). Copyright © 2026 Synaptics Incorporated.
+
+These scripts are original, self-contained implementations; they depend on (but do not copy or
+redistribute) [LeRobot](https://github.com/huggingface/lerobot) (Apache-2.0), the
+[Torq toolchain](https://github.com/synaptics-torq) (Apache-2.0), and other permissively licensed
+packages listed in the prerequisites above. The action-chunk blending constant follows LeRobot's
+async-inference default (`0.3 * old + 0.7 * new`). The CH343 bridge implements the public
+USB CDC-ACM specification.

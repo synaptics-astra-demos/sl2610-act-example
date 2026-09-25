@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: Copyright © 2026 Synaptics Incorporated.
 # deploy_to_board.sh — push the 2-cam QVGA ACT deployment (bf16 vmfb + norm params +
 # board code + your follower calibration) to the board, over adb (USB) or ssh.
 #

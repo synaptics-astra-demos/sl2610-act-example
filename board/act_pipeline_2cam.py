@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: Copyright © 2026 Synaptics Incorporated.
 """ACT policy NPU inference — 2-camera QVGA, single vmfb (load-once / infer-many).
 
 The trained 2-camera QVGA ACT policy as ONE Torq vmfb. The exported graph wraps

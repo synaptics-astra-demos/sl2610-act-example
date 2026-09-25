@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: Apache-2.0
+# SPDX-FileCopyrightText: Copyright © 2026 Synaptics Incorporated.
 """Board deployment of the 2-camera QVGA ACT policy: CPU owns motors+cameras, Torq NPU owns inference.
 
   * TWO cameras: wrist + top, 320x240 MJPG, RGB, rotated per CAM_ROTATION (from board_config.sh).
